@@ -8,6 +8,7 @@ import { LiftingStateUp } from './components/LiftingStateUp'
 import { LearnState } from './components/LearnState'
 import { CounterApp } from './components/CounterApp'
 import { LearnUseEffect } from './components/LearnUseEffect'
+import { LearnUseMemo } from './components/LearnUseMemo'
 
 
 function App() {
@@ -27,7 +28,9 @@ function App() {
     {/* <LiftingStateUp myClick={getData}/> */}
     {/* <LearnState/> */}
     {/* <CounterApp/> */}
-    <LearnUseEffect/>
+    {/* <LearnUseEffect/> */}
+    {/* <LearnUseMemo/> */}
+    <LearnUseCallback/>
     </>
   )
 }
