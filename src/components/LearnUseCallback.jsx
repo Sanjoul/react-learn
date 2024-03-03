@@ -9,10 +9,14 @@ export const LearnUseCallback = () => {
         setCount((prevCount)=>prevCount +1)
     }
     const[randomNumber,setRandomNumber]=useState(0);
-    const generateRandomNumber =()=>{
+    // const generateRandomNumber =()=>{
+    //     const newRandomNumber = Math.floor(Math.random()*100)+1;
+    //     setRandomNumber(newRandomNumber);
+    // }
+    const generateRandomNumber =useCallback(()=>{
         const newRandomNumber = Math.floor(Math.random()*100)+1;
         setRandomNumber(newRandomNumber);
-    }
+    },[randomNumber])
     return (
     <>
     <GenerateRandomNumber randomNumber={randomNumber} generateRandomNumber={generateRandomNumber}/>

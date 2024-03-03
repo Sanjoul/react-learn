@@ -11,7 +11,7 @@ export const GenerateRandomNumber = memo(({
     return(
         <>
         <h2>Random Number : {randomNumber}</h2>
-        <button onClick={generateRandomNumber}> Generate Randome Number</button>
+        <button onClick={generateRandomNumber}> Generate Random Number</button>
         </>
     )
 })   
