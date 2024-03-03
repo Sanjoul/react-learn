@@ -13,6 +13,14 @@ import { LearnUseCallback } from "./components/LearnUseCallback";
 import { LearnCustomHook } from "./components/LearnCustomHook";
 import { LearnConditionalRender } from "./components/LearnConditionalRender";
 import { LearnMap } from "./components/LearnMap";
+import { LearnInlineCSS } from "./components/LearnInlineCSS";
+import { LearnExternalCSS1 } from "./components/LearnExternalCSS1";
+import { LearnExternalCSS2 } from "./components/LearnExternalCSS2";
+import { LearnCSSModule1 } from "./components/LearnCSSModule1";
+import { LearnCSSModule2 } from "./components/LearnCSSModule2";
+import { LearnUseOfImage } from "./components/LearnUseOfImage";
+import { LearnForm } from "./components/LearnForm";
+import { LearnUsingENV } from "./components/LearnUsingENV";
 
 function App() {
   let roll = "33";
@@ -35,7 +43,15 @@ function App() {
       {/* <LearnUseCallback/> */}
       {/* <LearnCustomHook/> */}
       {/* <LearnConditionalRender/> */}
-      <LearnMap />
+      {/* <LearnMap /> */}
+      {/* <LearnInlineCSS /> */}
+      {/* <LearnExternalCSS2 />
+      <LearnExternalCSS1 /> */}
+      {/* <LearnCSSModule1 /> */}
+      {/* <LearnCSSModule2 /> */}
+      {/* <LearnUseOfImage /> */}
+      {/* <LearnForm />  */}
+      <LearnUsingENV />
     </>
   );
 }
